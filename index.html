@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummie Website</title>
+</head>
+<body>
+    <h2>HTML Listing </h2>
+    <h3>Orderd list with Roman Numerics</h3>
+    <p>Below is a list of my favorite TV shows</p>
+    <!-- This is an Ordered listing -->
+    <ol type="i" start="1">
+        <li>Mr Robot</li>
+        <li>Blindspot</li>
+        <li>Silicon Valley</li>
+        <li>Into the badlands</li>
+        <li>Two and a half Man</li>
+        <li>Arrow</li>
+        <li>The Flash</li>
+    </ol>
+
+    <h2>HTML Image</h2>
+    <!-- We will use an online picture taken from pexels.com -->
+    <img src="https://www.pexels.com/photo/black-flat-screen-computer-monitor-on-white-wooden-desk-7238759/" alt="Image of a gaming studio" height="600" width="600">
+    <img src="pexels-photo-7238759.jpeg" alt="Image of a gaming studio" height="250" width="600">
+    <br><br>
+    <!-- In these lines of code, well design a table that has contact details -->
+    <table border="1" width="100%">
+        <caption>Contact Details</caption>
+        <thead>
+            <tr>
+                <!-- This line implements the table's headings -->
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- In this line will be populating our table with some data -->
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, Springfield</td>
+                <td>078 654 3210</td>
+                <td>john.doe@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>123 Boston Avenue, Valhalah</td>
+                <td>071 234 5678</td>
+                <td>jane.doe@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Neobe Felix</td>
+                <td>101 Mox st, Oxtern</td>
+                <td>011 235 4646</td>
+                <td>neobefelix@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>Ray Donivan</td>
+                <td>1024 Skolakhe str, Mabandla</td>
+                <td>(552) 370 4455</td>
+                <td>donivanray@outlookk.com</td>
+            </tr>
+            <tr>
+                <td>Rich Dotcom</td>
+                <td>1 Main Str, Malborn</td>
+                <td>(600) 231 5564</td>
+                <td>richdotcom@proton.com</td>
+            </tr>
+        </tbody>
+        </table>
+    <br><br>
+
+    <caption><b>Student Registration Form</caption></b>
+    <br><br>
+    <!-- Information gathering through the use of a form -->
+    <form actin="" method="">
+        <!--Will make use of labels a  -->
+        <label for="first_name">First Names:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your first name here" required>
+        <br><br>
+        <label for="last_name">Last Names:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Enter your last name here" required>
+        <br><br>
+        <label for="languages">Language</label>
+        <input type="checkbox" id="languages" value="languages">Xhosa
+        <input type="checkbox" id="languages" value="languages">English
+        <input type="checkbox" id="languages" value="languages">Swahili
+        <input type="checkbox" id="languages" value="languages">Russian
+        <input type="checkbox" id="languages" value="languages">Finish
+        <input type="checkbox" id="languages" value="languages">Klingon
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Femal">Female
+        <br><br>
+        <label for="eail">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="johndoe@gmail.com">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" placeholder="0123456789" minlength="8" maxlength="20">
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <br><br>
+        <label for="courses">Courses:</label>
+        <select name="Course" id="Courses">
+            <!-- Choices allowing the user to choose from -->
+            <option>---Select A Cource of Study---</option>
+            <option>Software Development</option>
+            <option>Computer Science</option>
+            <option >Bcom in Acounting Science</option>
+            <option >Hospitality</option>
+            <option >Marine Science</option>
+            <option >Music and Dance</option>
+        </select>
+        <br><br>
+        <labele for="semester">Semester:</labele>
+        <select name="semester" id="semester">
+            <option >--Select Semester--</option>
+            <option >Semester 1</option>
+            <option >Semester 2</option>
+        </select>
+           <br><br>
+           <!-- Now we submit our form -->
+            <input type="submit" value="Register"">
+            <button type="reset">Cancel</button>
+           
+    </form>
+</body>
+</html>
